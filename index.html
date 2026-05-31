@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrivacyPilot - 免费隐私政策&条款生成器 | GDPR & CCPA 合规</title>
+  <meta name="description" content="免费在线生成隐私政策、服务条款、Cookie政策和免责声明。符合GDPR、CCPA、PIPL等法规要求。一键复制，支持中英文，无需注册。">
+  <meta name="keywords" content="隐私政策生成器,服务条款生成器,Cookie政策,免责声明,GDPR,CCPA,免费,隐私政策模板">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrivacyPilot">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PrivacyPilot - 免费隐私政策&条款生成器">
+  <meta property="og:description" content="免费在线生成符合GDPR、CCPA法规的隐私政策、服务条款、Cookie政策和免责声明。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://privacypilot.dev">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PrivacyPilot - 免费隐私政策&条款生成器">
+  <meta name="twitter:description" content="免费在线生成隐私政策、服务条款、Cookie政策和免责声明。">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PrivacyPilot",
+    "description": "免费在线隐私政策和法律文档生成器，符合GDPR、CCPA等法规要求",
+    "url": "https://privacypilot.dev",
+    "applicationCategory": "LegalDocumentGenerator",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "隐私政策生成",
+      "服务条款生成",
+      "Cookie政策生成",
+      "免责声明生成",
+      "Cookie同意横幅生成器",
+      "GDPR合规",
+      "CCPA合规",
+      "中英双语支持"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#" class="nav-brand" onclick="location.reload()">
+      <span class="logo-icon">🛡️</span>
+      PrivacyPilot
+    </a>
+    <ul class="nav-links">
+      <li><a href="#generator-section">生成器</a></li>
+      <li><a href="#features">功能</a></li>
+      <li><a href="#premium">高级版</a></li>
+      <li><a href="#faq">常见问题</a></li>
+      <li><a href="#generator-section" class="nav-cta">免费生成</a></li>
+    </ul>
+    <button class="mobile-menu-btn" aria-label="菜单">☰</button>
+  </nav>
+
+  <!-- Pro Banner -->
+  <div class="pro-banner" style="margin-top:64px;">
+    <div class="pro-banner-content">
+      <span>🔥 限时优惠：高级版律师审核服务仅需 ¥99（原价 ¥299）</span>
+      <a href="#premium" class="btn btn-sm">了解详情 →</a>
+    </div>
+  </div>
+
+  <!-- ==================== LANDING SECTIONS ==================== -->
+  <div class="landing-section">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge">
+        <span>🔒</span>
+        <span>100% 免费 · 无需注册 · 即用即走</span>
+      </div>
+      <h1>
+        <span class="gradient-text">PrivacyPilot</span><br>
+        免费隐私政策生成器
+      </h1>
+      <p>一键生成符合 GDPR、CCPA、PIPL 等国际法规的隐私政策、服务条款、Cookie 政策和免责声明。支持中英文，专业可靠。</p>
+      <div class="hero-actions">
+        <a href="#generator-section" class="btn btn-primary">🚀 开始生成</a>
+        <a href="#features" class="btn btn-secondary">了解更多</a>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-number">10,000+</div>
+        <div class="stat-label">已生成法律文档</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">4 种</div>
+        <div class="stat-label">文档类型</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">GDPR & CCPA</div>
+        <div class="stat-label">法规合规</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">中/英</div>
+        <div class="stat-label">双语支持</div>
+      </div>
+    </div>
+
+    <!-- Document Type Cards -->
+    <section class="section" id="generator-section">
+      <div class="section-header">
+        <h2>选择文档类型</h2>
+        <p>选择您需要生成的法律文档类型，填写相关信息，一键生成专业文档</p>
+      </div>
+      <div class="cards-grid">
+        <div class="doc-card" data-type="privacy">
+          <div class="doc-card-icon">🔒</div>
+          <h3>隐私政策</h3>
+          <p>Privacy Policy - 告知用户您如何收集、使用和保护他们的个人信息</p>
+          <div class="card-arrow">立即生成 →</div>
+        </div>
+        <div class="doc-card" data-type="terms">
+          <div class="doc-card-icon">📋</div>
+          <h3>服务条款</h3>
+          <p>Terms of Service - 规定用户使用您网站或应用时需要遵守的规则和条款</p>
+          <div class="card-arrow">立即生成 →</div>
+        </div>
+        <div class="doc-card" data-type="cookies">
+          <div class="doc-card-icon">🍪</div>
+          <h3>Cookie 政策</h3>
+          <p>Cookie Policy - 说明您如何使用 Cookie 及类似跟踪技术</p>
+          <div class="card-arrow">立即生成 →</div>
+        </div>
+        <div class="doc-card" data-type="disclaimer">
+          <div class="doc-card-icon">⚠️</div>
+          <h3>免责声明</h3>
+          <p>Disclaimer - 免除或限制您网站内容的法律责任</p>
+          <div class="card-arrow">立即生成 →</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section" id="features">
+      <div class="section-header">
+        <h2>为什么选择 PrivacyPilot？</h2>
+        <p>我们让法律文档生成变得简单、快速、专业</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon">🆓</div>
+          <h4>完全免费</h4>
+          <p>无需注册，无需付费，所有基础功能完全免费使用</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">⚖️</div>
+          <h4>符合法规</h4>
+          <p>支持 GDPR、CCPA、PIPL、COPPA 等国际主流隐私法规</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">📋</div>
+          <h4>一键复制</h4>
+          <p>生成后可直接复制、下载 HTML 或纯文本，方便嵌入网站</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">🌍</div>
+          <h4>中英双语</h4>
+          <p>支持生成中文和英文两种语言的文档</p>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /landing-section -->
+
+  <!-- ==================== GENERATOR FORMS ==================== -->
+
+  <!-- Privacy Policy Generator -->
+  <section id="generator-privacy" class="generator-section" style="display:none;">
+    <div class="generator-header">
+      <button class="back-btn">← 返回首页</button>
+      <h2>🔒 隐私政策生成器</h2>
+      <p>填写以下信息，生成符合您网站需求的隐私政策</p>
+    </div>
+    <form id="form-privacy">
+      <div class="form-row">
+        <div class="form-group">
+          <label>网站/应用名称 *</label>
+          <input type="text" name="siteName" required placeholder="例如：我的网站">
+        </div>
+        <div class="form-group">
+          <label>网站 URL *</label>
+          <input type="url" name="siteUrl" required placeholder="https://example.com">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>联系邮箱 *</label>
+          <input type="email" name="contactEmail" required placeholder="privacy@example.com">
+        </div>
+        <div class="form-group">
+          <label>公司名称 <span class="optional">(可选)</span></label>
+          <input type="text" name="companyName" placeholder="您的公司名称">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>您收集哪些数据？</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="name" checked> 姓名</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="email" checked> 电子邮件</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="phone"> 电话号码</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="address"> 地址</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="payment"> 支付信息</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="location"> 地理位置</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="device"> 设备信息</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="cookies"> Cookie 数据</label>
+          <label class="checkbox-item"><input type="checkbox" name="dataCollected" value="ip"> IP 地址</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>使用的第三方服务</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="google-analytics"> Google Analytics</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="google-ads"> Google Ads</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="facebook-pixel"> Facebook Pixel</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="stripe"> Stripe</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="paypal"> PayPal</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="mailchimp"> Mailchimp</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="sendgrid"> SendGrid</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="cloudflare"> Cloudflare</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="aws"> Amazon AWS</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyServices" value="other"> 其他</label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>您使用 Cookie 吗？</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="useCookies" value="true" checked> 是</label>
+            <label class="radio-item"><input type="radio" name="useCookies" value="false"> 否</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>您有博客/评论区吗？</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="hasBlog" value="true" checked> 是</label>
+            <label class="radio-item"><input type="radio" name="hasBlog" value="false"> 否</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>目标法规</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="regulations" value="gdpr"> GDPR (欧盟)</label>
+          <label class="checkbox-item"><input type="checkbox" name="regulations" value="ccpa"> CCPA (加州)</label>
+          <label class="checkbox-item"><input type="checkbox" name="regulations" value="pipl"> PIPL (中国)</label>
+          <label class="checkbox-item"><input type="checkbox" name="regulations" value="coppa"> COPPA (儿童)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>文档语言</label>
+        <div class="radio-group">
+          <label class="radio-item"><input type="radio" name="language" value="zh" checked> 中文</label>
+          <label class="radio-item"><input type="radio" name="language" value="en"> English</label>
+        </div>
+      </div>
+
+      <button type="submit" class="generate-btn">🚀 生成隐私政策</button>
+    </form>
+  </section>
+
+  <!-- Terms of Service Generator -->
+  <section id="generator-terms" class="generator-section" style="display:none;">
+    <div class="generator-header">
+      <button class="back-btn">← 返回首页</button>
+      <h2>📋 服务条款生成器</h2>
+      <p>填写以下信息，生成适合您网站的服务条款</p>
+    </div>
+    <form id="form-terms">
+      <div class="form-row">
+        <div class="form-group">
+          <label>网站/应用名称 *</label>
+          <input type="text" name="siteName" required placeholder="例如：我的网站">
+        </div>
+        <div class="form-group">
+          <label>网站 URL *</label>
+          <input type="url" name="siteUrl" required placeholder="https://example.com">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>联系邮箱 *</label>
+          <input type="email" name="contactEmail" required placeholder="legal@example.com">
+        </div>
+        <div class="form-group">
+          <label>服务类型</label>
+          <select name="serviceType">
+            <option value="ecommerce">电子商务</option>
+            <option value="saas">SaaS 平台</option>
+            <option value="blog">博客/内容</option>
+            <option value="mobile-app">移动应用</option>
+            <option value="other">其他</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>服务特性</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="hasAccounts" value="true" checked> 用户账户系统</label>
+          <label class="checkbox-item"><input type="checkbox" name="hasUGC" value="true"> 用户生成内容</label>
+          <label class="checkbox-item"><input type="checkbox" name="hasPaid" value="false"> 付费服务</label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>年龄限制</label>
+          <select name="ageRestriction">
+            <option value="none">无限制</option>
+            <option value="13">13 岁以上</option>
+            <option value="16">16 岁以上</option>
+            <option value="18">18 岁以上</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>管辖法律</label>
+          <select name="governingLaw">
+            <option value="china">中国</option>
+            <option value="us">美国</option>
+            <option value="eu">欧盟</option>
+            <option value="uk">英国</option>
+            <option value="other">其他</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>文档语言</label>
+        <div class="radio-group">
+          <label class="radio-item"><input type="radio" name="language" value="zh" checked> 中文</label>
+          <label class="radio-item"><input type="radio" name="language" value="en"> English</label>
+        </div>
+      </div>
+
+      <button type="submit" class="generate-btn">🚀 生成服务条款</button>
+    </form>
+  </section>
+
+  <!-- Cookie Policy Generator -->
+  <section id="generator-cookies" class="generator-section" style="display:none;">
+    <div class="generator-header">
+      <button class="back-btn">← 返回首页</button>
+      <h2>🍪 Cookie 政策生成器</h2>
+      <p>填写以下信息，生成您的 Cookie 政策文档</p>
+    </div>
+    <form id="form-cookies">
+      <div class="form-row">
+        <div class="form-group">
+          <label>网站名称 *</label>
+          <input type="text" name="siteName" required placeholder="例如：我的网站">
+        </div>
+        <div class="form-group">
+          <label>网站 URL *</label>
+          <input type="url" name="siteUrl" required placeholder="https://example.com">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>使用的 Cookie 类型</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="cookieTypes" value="essential" checked> 必要 Cookie</label>
+          <label class="checkbox-item"><input type="checkbox" name="cookieTypes" value="analytics"> 分析 Cookie</label>
+          <label class="checkbox-item"><input type="checkbox" name="cookieTypes" value="marketing"> 营销 Cookie</label>
+          <label class="checkbox-item"><input type="checkbox" name="cookieTypes" value="functional"> 功能性 Cookie</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>第三方 Cookie</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="google-analytics"> Google Analytics</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="facebook-pixel"> Facebook Pixel</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="google-ads"> Google Ads</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="hotjar"> Hotjar</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="intercom"> Intercom</label>
+          <label class="checkbox-item"><input type="checkbox" name="thirdPartyCookies" value="hubspot"> HubSpot</label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Cookie 保留时间</label>
+          <select name="cookieDuration">
+            <option value="session">会话期间</option>
+            <option value="1month">1 个月</option>
+            <option value="6months">6 个月</option>
+            <option value="1year" selected>1 年</option>
+            <option value="2years">2 年</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>文档语言</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="language" value="zh" checked> 中文</label>
+            <label class="radio-item"><input type="radio" name="language" value="en"> English</label>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="generate-btn">🚀 生成 Cookie 政策</button>
+    </form>
+  </section>
+
+  <!-- Disclaimer Generator -->
+  <section id="generator-disclaimer" class="generator-section" style="display:none;">
+    <div class="generator-header">
+      <button class="back-btn">← 返回首页</button>
+      <h2>⚠️ 免责声明生成器</h2>
+      <p>填写以下信息，生成适合您网站的免责声明</p>
+    </div>
+    <form id="form-disclaimer">
+      <div class="form-row">
+        <div class="form-group">
+          <label>网站名称 *</label>
+          <input type="text" name="siteName" required placeholder="例如：我的网站">
+        </div>
+        <div class="form-group">
+          <label>网站 URL *</label>
+          <input type="url" name="siteUrl" required placeholder="https://example.com">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>免责声明类型</label>
+        <select name="disclaimerType">
+          <option value="general">一般免责声明</option>
+          <option value="medical">医疗免责声明</option>
+          <option value="financial">金融免责声明</option>
+          <option value="legal">法律免责声明</option>
+          <option value="affiliate">联盟营销免责声明</option>
+          <option value="fitness">健身免责声明</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>附加选项</label>
+        <div class="checkbox-group">
+          <label class="checkbox-item"><input type="checkbox" name="hasProAdvice" value="true"> 提供专业建议内容</label>
+          <label class="checkbox-item"><input type="checkbox" name="hasAffiliate" value="false"> 包含联盟链接</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>文档语言</label>
+        <div class="radio-group">
+          <label class="radio-item"><input type="radio" name="language" value="zh" checked> 中文</label>
+          <label class="radio-item"><input type="radio" name="language" value="en"> English</label>
+        </div>
+      </div>
+
+      <button type="submit" class="generate-btn">🚀 生成免责声明</button>
+    </form>
+  </section>
+
+  <!-- ==================== OUTPUT SECTION ==================== -->
+  <section id="output-section" class="output-section section" style="display:none;">
+    <div class="section-header">
+      <h2>✅ 文档已生成</h2>
+      <p>您可以直接编辑下方文档内容，然后复制或下载</p>
+    </div>
+
+    <div class="output-toolbar">
+      <button class="btn btn-primary btn-sm" data-action="copy">📋 复制文本</button>
+      <button class="btn btn-secondary btn-sm" data-action="download-html">📥 下载 HTML</button>
+      <button class="btn btn-secondary btn-sm" data-action="download-txt">📄 下载 TXT</button>
+    </div>
+
+    <div class="output-preview"></div>
+
+    <!-- Embed Section -->
+    <div class="embed-section">
+      <h3>🔗 嵌入到您的网站</h3>
+      <p style="color:var(--text-secondary);font-size:0.9rem;margin-bottom:12px;">将以下代码复制并粘贴到您网站的 HTML 中</p>
+      <div style="position:relative;">
+        <pre class="embed-code"></pre>
+        <button class="btn btn-xs btn-primary" data-action="copy-embed" style="position:absolute;top:8px;right:8px;">复制</button>
+      </div>
+    </div>
+
+    <!-- Cookie Banner Builder -->
+    <div class="banner-builder" id="banner-builder">
+      <h3>🎨 Cookie 同意横幅生成器</h3>
+      <p style="color:var(--text-secondary);font-size:0.9rem;margin-bottom:20px;">自定义并生成 Cookie 同意横幅代码</p>
+
+      <div class="banner-color-group">
+        <div class="color-input-group">
+          <label>背景颜色</label>
+          <input type="color" name="banner-bg" value="#1a1a2e">
+        </div>
+        <div class="color-input-group">
+          <label>文字颜色</label>
+          <input type="color" name="banner-text" value="#ffffff">
+        </div>
+        <div class="color-input-group">
+          <label>按钮颜色</label>
+          <input type="color" name="banner-btn" value="#6c5ce7">
+        </div>
+      </div>
+
+      <div class="form-row" style="margin-top:16px;">
+        <div class="form-group">
+          <label>位置</label>
+          <select name="banner-position">
+            <option value="bottom">底部</option>
+            <option value="top">顶部</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>样式</label>
+          <select name="banner-style">
+            <option value="bar">横条</option>
+            <option value="floating">浮动</option>
+            <option value="modal">弹窗</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-top:12px;">
+        <label>语言</label>
+        <select name="banner-lang">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div class="banner-preview-container">
+        <div class="banner-preview-label">预览</div>
+        <div id="banner-preview"></div>
+      </div>
+
+      <div style="margin-top:16px;">
+        <button class="btn btn-primary" data-action="copy-banner">📋 复制 Cookie Banner 代码</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PREMIUM SECTION ==================== -->
+  <div class="landing-section">
+    <section class="premium-section" id="premium">
+      <div class="section-header">
+        <h2>升级高级版</h2>
+        <p>获取更多功能和专业支持</p>
+      </div>
+      <div class="premium-grid">
+        <div class="premium-card">
+          <h4>免费版</h4>
+          <div class="price">¥0</div>
+          <div class="price-period">永久免费</div>
+          <ul>
+            <li>基础文档生成</li>
+            <li>复制和下载功能</li>
+            <li>中英双语支持</li>
+            <li>Cookie 横幅生成器</li>
+            <li>手动更新文档</li>
+          </ul>
+          <a href="#generator-section" class="btn btn-secondary" style="width:100%;justify-content:center;">当前版本</a>
+        </div>
+        <div class="premium-card featured">
+          <h4>专业版</h4>
+          <div class="price">$6</div>
+          <div class="price-period">/月</div>
+          <ul>
+            <li>免费版所有功能</li>
+            <li>法规变更自动更新</li>
+            <li>多个网站支持</li>
+            <li>优先客户支持</li>
+            <li>自定义品牌样式</li>
+            <li>API 接口访问</li>
+          </ul>
+          <button class="btn btn-primary" style="width:100%;justify-content:center;">即将推出</button>
+        </div>
+        <div class="premium-card">
+          <h4>律师审核</h4>
+          <div class="price">$49</div>
+          <div class="price-period">一次性</div>
+          <ul>
+            <li>专业律师人工审核</li>
+            <li>个性化修改建议</li>
+            <li>合规性审查报告</li>
+            <li>48 小时内交付</li>
+            <li>一次免费修订</li>
+          </ul>
+          <button class="btn btn-secondary" style="width:100%;justify-content:center;">即将推出</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="section-header">
+        <h2>常见问题</h2>
+        <p>关于隐私政策生成的常见问题解答</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>什么是隐私政策？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>隐私政策是一份法律文档，告知您的网站或应用的访客您如何收集、使用、存储和共享他们的个人信息。它通常包括收集的数据类型、使用目的、数据保护措施以及用户的权利等内容。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>我需要隐私政策吗？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>是的。几乎所有网站和应用都需要隐私政策。如果您收集任何用户数据（包括 Cookie、分析数据），根据 GDPR、CCPA 等法规，您必须提供隐私政策。即使是基本的网站，大多数第三方服务（如 Google Analytics）也要求您有隐私政策。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>GDPR 和 CCPA 有什么区别？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>GDPR（通用数据保护条例）是欧盟的隐私法规，适用于处理欧盟居民数据的任何组织。CCPA（加州消费者隐私法）是美国加州的隐私法规，赋予加州居民更多控制其个人信息使用的权利。两者都要求透明的数据收集做法，但具体要求有所不同。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>使用 PrivacyPilot 生成的文档有法律效力吗？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>PrivacyPilot 生成的文档基于最佳实践模板，旨在帮助您快速创建合规的法律文档。但这些文档仅供参考，不构成法律建议。我们建议您在将生成的内容用于生产环境之前，咨询专业律师以确保完全合规。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>我应该把隐私政策放在网站的哪里？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>您的隐私政策应该放在网站页脚的显眼位置，通常通过"隐私政策"链接可以访问。如果您面向欧盟用户，还需要在用户首次访问时通过 Cookie 同意横幅告知用户。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>什么是 Cookie 同意横幅？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Cookie 同意横幅是网站上的一个提示框，告知用户网站使用 Cookie，并征求他们的同意。根据 GDPR 和 ePrivacy 指令的要求，网站在设置非必要 Cookie 之前必须获得用户的明确同意。PrivacyPilot 提供免费的 Cookie 同意横幅生成器。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>我需要多久更新一次隐私政策？</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>当您的数据收集做法发生变化、添加新的第三方服务、或适用的法律法规发生变更时，您应该更新隐私政策。建议至少每 6-12 个月审查一次。高级版用户可以获得法规变更的自动更新提醒。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Tools -->
+    <section class="section">
+      <div class="section-header">
+        <h2>相关工具</h2>
+        <p>探索更多实用的开发工具</p>
+      </div>
+      <div class="related-tools">
+        <a href="https://github.com/tyr1105" class="related-tool-card" target="_blank">
+          <div class="tool-icon">🧰</div>
+          <div>
+            <div class="tool-name">DevToolBox</div>
+            <div class="tool-desc">开发者工具箱</div>
+          </div>
+        </a>
+        <a href="https://github.com/tyr1105" class="related-tool-card" target="_blank">
+          <div class="tool-icon">🎨</div>
+          <div>
+            <div class="tool-name">ColorPicker</div>
+            <div class="tool-desc">颜色选择器</div>
+          </div>
+        </a>
+        <a href="https://github.com/tyr1105" class="related-tool-card" target="_blank">
+          <div class="tool-icon">📝</div>
+          <div>
+            <div class="tool-name">MarkdownEditor</div>
+            <div class="tool-desc">Markdown 编辑器</div>
+          </div>
+        </a>
+        <a href="https://github.com/tyr1105" class="related-tool-card" target="_blank">
+          <div class="tool-icon">🖼️</div>
+          <div>
+            <div class="tool-name">ImageOptimizer</div>
+            <div class="tool-desc">图片优化工具</div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#">首页</a>
+        <a href="#generator-section">生成器</a>
+        <a href="#features">功能</a>
+        <a href="#premium">高级版</a>
+        <a href="#faq">常见问题</a>
+        <a href="https://github.com/tyr1105/privacypilot" target="_blank">GitHub</a>
+      </div>
+      <p class="footer-copy">
+        © 2024 PrivacyPilot. 所有生成的文档仅供参考，不构成法律建议。<br>
+        Built with ❤️ by <a href="https://github.com/tyr1105" style="color:var(--accent)">tyr1105</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/generators/privacy.js"></script>
+  <script src="js/generators/terms.js"></script>
+  <script src="js/generators/cookies.js"></script>
+  <script src="js/generators/disclaimer.js"></script>
+  <script src="js/templates.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
